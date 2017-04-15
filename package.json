@@ -1,0 +1,20 @@
+{
+  "name": "nodebot",
+  "version": "1.0.0",
+  "description": "NodeBot workshop exercises.",
+  "scripts": {
+    "watch": "node_modules/.bin/tsc -w src/*.ts",
+    "compile": "node_modules/.bin/tsc src/*.ts"
+  },
+  "author": "Manuel Sabogal",
+  "license": "MIT",
+  "dependencies": {
+    "dnode": "^1.2.2",
+    "johnny-five": "^0.10.8",
+    "nodebot-workshop": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/johnny-five": "^0.0.31",
+    "typescript": "^2.1.4"
+  }
+}
